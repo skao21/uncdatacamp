@@ -1,0 +1,202 @@
+
+// Variable Overrides 
+$theme-colors: (
+  "primary":#2800d9
+);
+
+$body-bg: #ededed;
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #fff; /* white */
+  }
+} 
+h2 {
+  font-size: 40px;
+  color: #32d5e0;
+  font-family: Georgia, Times, "Times New Roman",serif;
+  font-weight: bold;
+  margin-left: 80px; 
+}
+
+h3 {
+  font-size: 16px;
+  /* color: #32d5e0; */
+  font-family: Georgia, Times, "Times New Roman",serif;
+  /* font-weight: bold;    */
+  margin-left: 50px;
+
+}
+
+h4 {
+  font-size: 16px;
+  /* color: #32d5e0; */
+  font-family: Georgia, Times, "Times New Roman",serif;
+  /* font-weight: bold;    */
+  margin-left: 77px;
+
+}
+
+img {
+  padding: 10;
+  display: inline-block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  border: gray;
+}
+
+.thubnail {
+  /* box model */
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+/* Media query for navigation */
+@media only screen and (max-width: 767px) {
+.navbar-header {
+  background-color: #fff; /* white */
+  }
+} 
+
+/* Navigation styles */ 
+
+.navbar-custom {
+  background-color: #fff;
+}
+
+#landing-btn {
+  /* box model */
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+  /* Positioning */
+  margin-left: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; 
+  background: #32d5e0;
+}
+
+/* Logo hover state */
+#landing-btn:hover {
+  /* Visual */
+  opacity: 0.7;
+}
+
+.navbar-right-custom {
+/* box-model */
+padding-top: 6px;
+padding-right: 20px;
+font-size: 10px;
+font-weight: bold;
+opacity:0.8;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+  color: slategray;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav ul li a:hover {
+  /* color: #fff !important; */
+  color: #2d2d30 !important; 
+  display: block;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+  /* color: #fff ; */
+  color: #2d2d30 !important; 
+  /* background-color: #555 !important;*/
+  opacity: 0.7 ;
+  filter:alpha(opacity=70);
+}
+
+/* For visualization pages - main frame style */
+
+.desc-header {
+  margin-bottom: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #32d5e0;
+}
+
+.desc-hr {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+/* Media query for description content */
+@media only screen and (max-width: 767px) {
+  .desc-content{
+    padding: 0;
+    margin-top: 0;
+  }
+} 
+
+.desc-content {
+  /* box model */
+  /* width: 560px;
+  height: 650px; */
+  padding: 10px; 
+  margin-top: 26px;
+  background-color: #fff;
+}
+
+.desc-text {
+  padding-bottom: 20px
+}
+
+#desc-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* for paragraph text */
+.desc-content > p {
+  /* box model */
+  padding-top: 17px;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  margin-top: 5px;
+  margin-right: 20px
+ }
+
+/* For comparison page - main frame style */
+
+.desc-hd {
+  margin-bottom: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #1f06ad;
+}
+
+.desc-comm {
+  padding: 10px; 
+  margin-top: 26px;
+  background-color: #fff;
+}
+
+.comparison-header {
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 177px;
+  color: #1f06ad;
+} 
+
+@import "node_modules/bootstrap/scss/bootstrap";

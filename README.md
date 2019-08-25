@@ -6,3 +6,5 @@ UNCDATACAMP homework:
 4. panda-challenge
 5. Matplotlib
 6. python-api
+7. Psql
+9. Web
