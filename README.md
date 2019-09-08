@@ -7,4 +7,9 @@ UNCDATACAMP homework:
 5. Matplotlib
 6. python-api
 7. Psql
+8. Adv-Data-Stor
 9. Web
+10. Web-Scraping
+11. 
+12.
+13.
