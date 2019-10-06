@@ -10,6 +10,8 @@ UNCDATACAMP homework:
 8. Adv-Data-Stor
 9. Web
 10. Web-Scraping
-11. 
-12.
-13.
+11. JavaScript
+12. Ploty
+13. D3.js
+
+
